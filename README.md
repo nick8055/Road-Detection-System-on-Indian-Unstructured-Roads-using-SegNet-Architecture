@@ -1,5 +1,11 @@
 # Road-Detection-System-on-Indian-Unstructured-Roads-using-SegNet-Architecture
 
+REPOSITORY STRUCTURE:
+1. Data Loader Program file - Used to load and preprocess data from IDD dataset, and save preprocessed data as NUMPY files in 'Prepared data' Folder (Download dataset from [THIS LINK](https://idd.insaan.iiit.ac.in/))
+2. SegNet Architecture - This program is used to define the SegNet architecture model and save it as .H5 file
+3. Model Trainer - This program import train data (numpy), validation data (numpy) and the SegNet Model to train the same, and save trained model into new .H5 file
+4. Model Tester - Imports trained model as well as testing data, and the model is evaluated by using various metrics and ROC curve
+
 Motivation
 
 The motivation behind the development of a road detection system tailored for unstructured Indian roads stems from the critical need to address the unique challenges posed by the country's diverse and often chaotic road networks. With millions of kilometers of roads traversing varied terrain, densely populated urban areas, and remote rural regions, India's transportation infrastructure presents a complex environment characterized by irregularities, inadequate signage, and unpredictable traffic patterns. Traditional road detection methods struggle to cope with these challenges, leading to safety hazards, traffic congestion, and inefficiencies in transportation systems. By leveraging advanced deep learning techniques and specifically tailored architectures such as SegNet, there exists an opportunity to revolutionize road detection capabilities, enhancing road safety, navigation accuracy, and overall transportation efficiency across the country. Moreover, the potential societal impact of a robust road detection system extends beyond mere convenience, encompassing improved emergency response, reduced accident rates, and enhanced accessibility for citizens across all demographics. Thus, the motivation behind this project lies in leveraging cutting-edge technology to address a pressing societal need, ultimately contributing to the advancement of road infrastructure and safety standards in India.
