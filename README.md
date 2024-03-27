@@ -1,10 +1,12 @@
 # Road-Detection-System-on-Indian-Unstructured-Roads-using-SegNet-Architecture
 
 REPOSITORY STRUCTURE:
-1. Data Loader Program file - Used to load and preprocess data from IDD dataset, and save preprocessed data as NUMPY files in 'Prepared data' Folder (Download dataset from [THIS LINK](https://idd.insaan.iiit.ac.in/))
-2. SegNet Architecture - This program is used to define the SegNet architecture model and save it as .H5 file
-3. Model Trainer - This program import train data (numpy), validation data (numpy) and the SegNet Model to train the same, and save trained model into new .H5 file
-4. Model Tester - Imports trained model as well as testing data, and the model is evaluated by using various metrics and ROC curve
+1. Data Loader Program file - Used to load and preprocess data from IDD dataset, and save preprocessed data as NUMPY files in 'Prepared data' Folder (Download dataset from [THIS LINK](https://idd.insaan.iiit.ac.in/)).
+Access 'Prepared Data' Folder from my [Google drive link](https://drive.google.com/drive/folders/1ZONuKgaHc-In3Fgr6miWwdwSBTUrp5WS?usp=drive_link)
+3. SegNet Architecture - This program is used to define the SegNet architecture model and save it as .H5 file
+4. Model Trainer - This program import train data (numpy), validation data (numpy) and the SegNet Model to train the same, and save trained model into new .H5 file
+5. Model Tester - Imports trained model as well as testing data, and the model is evaluated by using various metrics and ROC curve
+
 
 Motivation
 
